@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IPersonRepository : IGenericRepository<Person> { }
+    public interface IPersonRepository : IGenericRepository<Person>
+    {
+        IEnumerable<Person> GetAdultPersons();
+    }
 }

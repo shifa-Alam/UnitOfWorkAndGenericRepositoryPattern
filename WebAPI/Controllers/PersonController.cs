@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
- 
+
     [ApiController]
     [Route("[controller]")]
     public class PersonController : ControllerBase
@@ -18,6 +18,12 @@ namespace WebAPI.Controllers
         public IEnumerable<Person> GetAllPersons()
         {
             return unitOfWork.Person.GetAll();
+        }
+        [Route("[action]")]
+        [HttpGet]
+        public IEnumerable<Person> GetAdultPersons()
+        {
+            return unitOfWork.Person.GetAdultPersons();
         }
     }
 }
