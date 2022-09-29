@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{6A652A69-6E29-4A52-B1AD-52CF079951FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessEF", "DataAccessEF\DataAccessEF.csproj", "{8DDC8DB0-B8FE-45EA-892A-124117C16351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BD050319-737D-4099-9850-F073BD332F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A652A69-6E29-4A52-B1AD-52CF079951FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A652A69-6E29-4A52-B1AD-52CF079951FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A652A69-6E29-4A52-B1AD-52CF079951FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A652A69-6E29-4A52-B1AD-52CF079951FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDC8DB0-B8FE-45EA-892A-124117C16351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDC8DB0-B8FE-45EA-892A-124117C16351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDC8DB0-B8FE-45EA-892A-124117C16351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDC8DB0-B8FE-45EA-892A-124117C16351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD050319-737D-4099-9850-F073BD332F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD050319-737D-4099-9850-F073BD332F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD050319-737D-4099-9850-F073BD332F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD050319-737D-4099-9850-F073BD332F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82D6CA92-26A3-4E80-8FE9-E2F9C0BE1682}
+	EndGlobalSection
+EndGlobal
